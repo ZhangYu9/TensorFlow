@@ -52,7 +52,6 @@ for i in range(num_loops):
 accuracy = sum([1./test_size for i in range(test_size) if test_output[i]==actual_vals[i]])
 print('Accuracy on test set: ' + str(accuracy))
 
-
 actuals = np.argmax(y_batch, axis = 1)
 Nrows = 2
 Ncols = 3
